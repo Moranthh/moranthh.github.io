@@ -1,0 +1,33 @@
+body {
+	background-color: rgb(0,255,255);
+}
+h1 {
+	color: red;
+	text-align: center;
+	font-size: 128px;
+}
+
+p {
+	color: gray;
+	font-size: 200%;
+	+ span {
+		color: red;
+	}
+}
+
+a:hover {
+	font-size: 150%;
+}
+/* h1 + p { */
+  /* font-size: 200%; */
+/* } */
+
+.second{
+	color: black;
+	font-size: 200%;
+}
+
+.facts{
+	background-color: white;
+	width: 500px;
+}
